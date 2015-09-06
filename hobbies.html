@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Hobbies</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap link -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/csmb-min.css">
+
+    <!-- Tab Logo -->
+    <link rel="shortcut icon" href="http://www.online-assault.com/z_other/Shogun2/Mons/Kiso.png">
+</head>
+<body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Kenan Tufekci</a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li class="active">
+                        <a href="hobbies.html">Hobbies</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bottom Page -->
+    <div class="row">
+        <div class="col-md-9 col-md-push-3">
+            <h1>Kenan Tarik Tufekci</h1>
+            <a href="doc/KENAN%20TARIK%20TUFEKCI%20-%20Resume%20-%20(08-12-2015).pdf" download="KenanTufekciResume.pdf">
+                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                    Download My Resume
+                </button>
+            </a>
+
+            <a href="doc/KENAN%20TARIK%20TUFEKCI%20-%20Curriculum%20Vitae%20-%20(08-12-2015).pdf" download="KenanTufekciCV">
+                <button type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
+                    Download My CV
+                </button>
+            </a>
+            <p></p>
+            <img src="img/KenanRowdies.jpg" class="RowdiesPic">
+            <p></p>
+            <p>
+                I am an avid soccer fan and enjoy watching soccer from all over the world. I am a huge supporter for youth soccer
+                programs. I have played soccer for most of my young life and I believe if I ever choose anothoer profession is
+                would lie in this sport.
+            </p>
+            <p>
+                I a huge advocate for professional soccer in the United States and I like to show people how much fun it can be
+                to support your local soccer club. In the state of florida some of my favorite teams are Orlando City and Tampa Bay
+                Rowdies.
+            </p>
+            <p></p>
+            <div class="SoccerBlock">
+                <img src="http://static1.squarespace.com/static/5537d371e4b0dab0f3fee903/553fce1fe4b021aa55fe7604/553fd64fe4b0f8be7d8f6418/1430247216178/?format=500w" class="OrlandoCityLogo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Tampa_Bay_Rowdies_logo_(two_green_stars).svg/2000px-Tampa_Bay_Rowdies_logo_(two_green_stars).svg.png" class="RowdiesLogo">
+            </div>
+
+            <p></p>
+
+            <p>
+                I am also an avid fishing angluar. I love being out on the boat and catching fish. This is probably my favorite pasttime.
+            </p>
+
+            <div class="FishingBlock">
+                <img src="img/20150801_141626.jpg" class="Fishing1">
+                <img src="img/20150802_184755.jpg" class="Fishing2">
+            </div>
+
+            <p></p>
+
+        </div>
+        <!-- Sidebar -->
+        <div class="col-md-3 col-md-pull-9">
+            <img src="img/Resume%20Picture.jpg" class="img-thumbnail">
+            <a href="https://www.facebook.com/kenantariktufekci"><img src="img/webicon-facebook.svg" class="icon"></a>
+            <a href="https://www.linkedin.com/pub/kenan-tufekci/a5/b4b/684"><img src="img/webicon-linkedin.svg" class="icon"></a>
+            <a href="https://plus.google.com/u/0/108748034157635093314"><img src="img/webicon-googleplus.svg" class="icon"></a>
+            <a href="https://github.com/kenantufekci"><img src="img/webicon-github.svg" class="icon"></a>
+
+            <div ng-repeat="merchant in merchants">
+                <div class="followrow">
+                    <a ng-click="toggleImage(merchant)"><img id="followbutton" ng-src="{{merchant.imgUrl}}"  />
+                    </a>
+                </div>
+            </div>
+
+            <!-- List Items -->
+            <div class="list-group">
+                <div class="list-group">
+                    <p>
+                        <h3 class="list-group-item-heading"><strong>Address</strong></h3>
+                        <p class="list-group-item-text">
+                        <p>2500 NW 54th Terr.</p>
+                        <p>Gainesville, FL 32606</p>
+                    </p>
+                    <p>
+                        <h3 class="list-group-item-heading"><strong>Phone</strong></h3>
+                        <p class="list-group-item-text">
+                        <p>(352)507-9630</p>
+                    </p>
+                    <p>
+                        <h3 class="list-group-item-heading"><strong>Email</strong></h3>
+                        <p class="list-group-item-text">
+                        <p>kenantt@ufl.edu</p>
+                    </p>
+                    <p>
+                        <h3 class="list-group-item-heading"><strong>School</strong></h3>
+                        <p class="list-group-item-text">
+                        <p>University of Florida</p>
+                    </p>
+                    <p>
+                        <h3 class="list-group-item-heading"><strong>Degree</strong></h3>
+                        <p class="list-group-item-text">
+                        <p>B.S. Degree</p>
+                        <p>Computer Science and Engineering</p>
+                    </p>
+                    <p>
+                        <h3 class="list-group-item-heading"><strong>GPA</strong></h3>
+                        <p class="list-group-item-text">
+                        <p>3.64</p>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Javascript Files -->
+    <script src="js/angular.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="foundation-5.5.2/js/foundation.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+
+</body>
+</html>

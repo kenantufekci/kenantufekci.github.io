@@ -1,0 +1,152 @@
+body {
+    padding-top: 60px;
+    background-image: url(http://madelinerouge.com/wp-content/uploads/2012/03/grey-website-background.jpg);
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: top center;
+    background-color: black;
+    background-size: 100%;
+    padding: 70px;
+}
+
+p {
+    color: whitesmoke;
+    font-family: consolas;
+    font-size: 18px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-family: fantasy;
+    text-shadow: 2px 2px 4px #dadeff;
+}
+
+h3 {
+    color: #7f858e;
+    font-size: 30px;
+    font-family: fantasy;
+    text-shadow: 2px 2px 4px #dadeff;
+}
+
+.img-thumbnail{
+    height: 84%;
+    width: 84%;
+    align: "center";
+}
+
+.JabilPic{
+    height: 40%;
+    width: 40%;
+    align: "left";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+.JabilLogo{
+    height: 30%;
+    width: 30%;
+    align: "left";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LockheedLogo {
+    height: 40%;
+    width: 40%;
+    align: "left";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.LockheedPic {
+    height: 50%;
+    width: 50%;
+    align: "left";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+.UFlogo {
+    height: 60%;
+    width: 60%;
+    padding: 25px;
+}
+
+.IPPDlogo{
+    height: 30%;
+    width: 30%;
+    padding: 25px;
+}
+
+.UFBlock{
+    align: "left";
+    display: block;
+    margin-left: 150px;
+    margin-right: 25px;
+    padding: 25px;
+}
+
+.icon {
+    height: 20%;
+    width: 20%;
+}
+
+.list-group-item-heading {
+    color: whitesmoke;
+    font-family: Consolas;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.OrlandoCityLogo{
+    height: 30%;
+    width: 30%;
+    padding: 25px;
+}
+
+.RowdiesLogo{
+    height: 30%;
+    width: 30%;
+    padding: 25px;
+}
+
+.RowdiesPic{
+    height: 50%;
+    width: 50%;
+    align: "left";
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+
+.SoccerBlock{
+    align: "left";
+    display: block;
+    margin-left: 222px;
+    margin-right: 20px;
+    padding: 25px;
+}
+
+.Fishing1{
+    height: 40%;
+    width: 40%;
+    padding: 5px;
+    transform: rotate(180deg);
+}
+
+.Fishing2{
+    height: 40%;
+    width: 40%;
+    padding: 5px;
+}
+
+
+
