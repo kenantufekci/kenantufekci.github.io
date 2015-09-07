@@ -1,9 +1,9 @@
-<!doctype html>
-<html lang="en" ng-app="myApp">
+<!DOCTYPE html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Kenan Tufekci Home Page</title>
+        <title>Skills</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -16,18 +16,19 @@
         <!-- Stylesheets -->
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/csmb-min.css">
+        <link rel="stylesheet" href="devicon/devicon.css">
         <!-- Buttons core css -->
         <link rel="stylesheet" href="css/buttons.css">
         <!-- Only needed if you want font icons -->
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css">
         <link rel="stylesheet" href="css/footer-distributed-with-address-and-phones.css">
+        <!-- in your header -->
+        <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/89f2f44ba07ea3fff7e561c2142813b278c2d6c6/devicon.min.css">
 
         <!-- Tab Logo -->
         <link rel="shortcut icon" href="http://www.online-assault.com/z_other/Shogun2/Mons/Kiso.png">
-
     </head>
-
-    <body ng-controller="HomeController">
+    <body>
         <!-- NavBar -->
         <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
@@ -36,10 +37,10 @@
                 </div>
                 <div>
                     <ul class="nav navbar-nav">
-                        <li class="active">
+                        <li>
                             <a href="index.html">Home</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="skills.html">Skills</a>
                         </li>
                         <li>
@@ -59,68 +60,59 @@
                     <a href="doc/KENAN%20TARIK%20TUFEKCI%20-%20Resume%20-%20(08-12-2015).pdf" class="button button-3d button-primary button-rounded">Download My Resume</a>
                     <a href="doc/KENAN%20TARIK%20TUFEKCI%20-%20Curriculum%20Vitae%20-%20(08-12-2015).pdf" class="button button-3d button-primary button-rounded">Download My CV</a>
                 </h1>
-
-
                 <p></p>
+
                 <!-- Main Body-->
-                <p>
-                    I am currently a Senior in the Computer & Information Science & Engineering program at the University of Florida.
-                    I am proficient in C, C++, and Java programming languages. My education throughout the many years of school will
-                    help me become an essential asset of your software development team.
-                </p>
-                <div class="UFBlock">
-                    <img src="http://biology.ufl.edu/wp-content/themes/ufclas-ufl-responsive/images/uf_logo_full.png" class="UFlogo">
-                    <img src="https://cdn.evbuc.com/images/12548549/54384088322/1/logo.png" class="IPPDlogo">
-                </div>
-                <p>
-                    In my youth I was naturally drawn to leadership when working on activities with my friends and classmates. It was
-                    only in my later years I came to appreciate the responsibility assumed by leadership. I am excited to be mentored
-                    by the leaders of this company and gaining wisdom from their many years of corporate leadership experience. I am
-                    looking forward to the prospect of honing my professional skills in vital qualities such as project leadership,
-                    continuous improvement, innovative thinking, and conflict resolution, all while driving teamwork and foster the
-                    best in others.
-                </p>
-                <p>
-                    I was instrumental in organizing and serving as President of The Undergraduate Research Society. President of
-                    The Florida Engineering Society, President of The Tutoring Club, and Treasurer for Gator Robotics. The experiences
-                    I gained during my terms of office helped me build a strong foundation in leadership. I created and implemented policies
-                    and procedures, in collaboration with my team, faculty and administration. My excellent interpersonal skills enabled
-                    me to manage many group projects in a productive and amicably manner. I always portray a supportive attitude towards
-                    fellow students promoting mutual cooperation and teamwork.
-                </p>
-                <p>
-                    Last summer, I was hired by Jabil Corporation as an Enterprise Architect Intern in the Information Technology Corporate
-                    headquarters under Chase Chritensen. During my time there I worked closely with many senior director including the CIO,
-                    Gary Cantrell. I learned how a large global corporation operates holistically, and how all facets of an enterprise is
-                    managed and governed.This was an enriching experience that gave me a much better perspective of how essential IT's role
-                    is to a corporation. This internship broadened my horizons for what corporate leadership entails, and how important the
-                    function of enterprise architecture is to a company's success.
-                </p>
-                <img src="http://www.alfraconsulting.com/wp-content/uploads/2013/11/jabil.png" class="JabilLogo">
-                <img src="img/IMG_5332.jpg" class="JabilPic">
-                <p>
-                    In the summer of 2014, I was hired as a software engineering intern for Lockheed Martin in Mission Systems and Testing
-                    (MST) at the Orlando, FL facility (summer 2014). I worked for IRAD under Cindy Eng and was tasked with the TPS automatic
-                    translator. I wrote a standalone program that parsed ATLAS code and then converted it into a workable C code. I later
-                    incorporated that code into the master solution which was used in a demo for the product. While I worked in ATE under
-                    Alicia Helton I updated the SDK image build procedure for Win XP to Win 7, mapped all the CVI Support Handlers and their
-                    functions for SDK Tester, updated the SDK Tester Sequence files, used TestStand to test procedures for SDK in Win 7, and
-                    worked with Storm GUI for LM-STAR. I also participated in the Summer Intern Innovation Challenge at Lockheed Martin. This
-                    was a 10 hour event. In 6 hours I learned how to program the Raspberry Pi in Python, and how to apply that knowledge to
-                    build circuits. The final competition consisted of all the engineering interns being divided into groups of four with each
-                    group having only 2.5 hours to design a spy gadget that MI6 would present to James Bond. My team won 1st place in the
-                    competition.
-                </p>
-                <img src="http://www.datainterfuse.com/images/partners/lockheed-logo.png" class="LockheedLogo">
-                <img src="img/Picture1.png" class="LockheedPic">
+                <h2>Computer Skills</h2>
+                <ul class="list-group" alt="computerSkills">
+                    <li class="cs-list-item"><h4>Languages</h4>
+                        C, C++, Java, Python
+                        <div class="skillIcon">
+                            <i class="cbp-ig-icon devicon-c-plain"></i>
+                            <i class="cbp-ig-icon devicon-cplusplus-plain"></i>
+                            <i class="devicon-java-plain-wordmark"></i>
+                            <i class="devicon-python-plain-wordmark"></i>
+                        </div>
+                    </li>
+                    <li class="cs-list-item"><h4>Operating Systems</h4>
+                        UNIX, Linux, Windows, Mac, Xinu
+                        <div class="skillIcon">
+                            <i class="devicon-linux-plain"></i>
+                            <i class="devicon-windows8-original"></i>
+                            <i class="devicon-apple-original"></i>
+                        </div>
+                    </li>
+                    <li class="cs-list-item"><h4>Web</h4>
+                        HTML5, CSS3, JavaScript, MeanJS, AngularJS, NodeJS, BootStrap
+                        <div class="skillIcon">
+                            <i class="devicon-html5-plain"></i>
+                            <i class="devicon-css3-plain"></i>
+                            <i class="devicon-javascript-plain"></i>
+                            <i class="devicon-angularjs-plain"></i>
+                            <i class="devicon-nodejs-plain-wordmark"></i>
+                            <i class="devicon-bootstrap-plain-wordmark"></i>
+                        </div>
+                    </li>
+                    <li class="cs-list-item"><h4>Databases</h4>
+                        SQL, Oracle, MongoDB
+                        <div class="skillIcon">
+                            <i class="devicon-mysql-plain-wordmark"></i>
+                            <i class="devicon-oracle-original"></i>
+                            <i class="devicon-mongodb-plain-wordmark"></i>
+                        </div>
+                    </li>
+                    <li class="cs-list-item"><h4>Applications</h4> MS Office, Derive, Converge, Maple, Matlab, PSpice, TestStand, Visual Studio, Eclipse, NetBeans</li>
+                    <li class="cs-list-item"><h4>Other</h4> Agile, Scrum, Git, Boost C++ Libraries, Google Cloud Platform, Google APIs, BOST Modeling</li>
+                </ul>
+
             </div>
             <!-- Sidebar -->
             <div class="col-md-3 col-md-pull-9">
                 <img src="img/Resume%20Picture.jpg" class="img-thumbnail">
-                <a href="https://www.facebook.com/kenantariktufekci" ><img src="img/webicon-facebook.svg" class="icon" target="_blank"></a>
-                <a href="https://www.linkedin.com/pub/kenan-tufekci/a5/b4b/684"><img src="img/webicon-linkedin.svg" class="icon" target="_blank"></a>
-                <a href="https://plus.google.com/u/0/108748034157635093314"><img src="img/webicon-googleplus.svg" class="icon" target="_blank"></a>
-                <a href="https://github.com/kenantufekci"><img src="img/webicon-github.svg" class="icon" target="_blank"></a>
+                <a href="https://www.facebook.com/kenantariktufekci"><img src="img/webicon-facebook.svg" class="icon"></a>
+                <a href="https://www.linkedin.com/pub/kenan-tufekci/a5/b4b/684"><img src="img/webicon-linkedin.svg" class="icon"></a>
+                <a href="https://plus.google.com/u/0/108748034157635093314"><img src="img/webicon-googleplus.svg" class="icon"></a>
+                <a href="https://github.com/kenantufekci"><img src="img/webicon-github.svg" class="icon"></a>
 
                 <!-- List Items -->
                 <div class="list-group">
@@ -168,16 +160,19 @@
             </div>
         </div>
 
+
         <!-- Javascript Files -->
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
-        <script type="text/javascript" src="js/plugins.js"></script>
-        <script type="text/javascript" src="js/script.js"></script>
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-2.1.4.min.js"><\/script>')</script>
-        <script type="text/javascript" src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script src="js/angular.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/{{JQUERY_VERSION}}/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
-        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+        <script src="foundation-5.5.2/js/foundation.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
         <script type="text/javascript" src="js/buttons.js"></script>
     </body>
     <footer class="footer-distributed">

@@ -13,8 +13,9 @@ body {
 
 p {
     color: whitesmoke;
-    font-family: consolas;
+    font-family: Consolas;
     font-size: 120%;
+    padding: 1%;
 }
 
 h1 {
@@ -25,20 +26,17 @@ h1 {
 }
 
 h2 {
-
+    color: whitesmoke;
+    font-family: Consolas;
+    font-size: 200%;
 }
 
 h3 {
     color: #7f858e;
-    font-size: 180%;
+    font-family: Consolas;
+    font-size: 150%;
     font-family: fantasy;
     text-shadow: 2px 2px 4px #dadeff;
-}
-
-ul {
-    color: whitesmoke;
-    font-family: consolas;
-    font-size: 120%;
 }
 
 .list-group-item-heading {
@@ -46,7 +44,50 @@ ul {
     font-family: Consolas;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px;
+}
+
+.computerSkills {
+    color: black;
+    font-family: Consolas;
+    font-size: 120%;
+    padding: 2%;
+}
+
+.list-group {
+    color: whitesmoke;
+    font-family: Consolas;
+    font-size: 100%;
+    padding: 2%;
+}
+
+.cs-list-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #464944;
+    border: 1px solid #ddd;
+}
+
+.skillIcon {
+    font-size: 500%;
+    padding: 2%;
+}
+
+.page-wrap {
+    min-height: 100%;
+    /* equal to footer height */
+    margin-bottom: -142px;
+}
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+.site-footer, .page-wrap:after {
+    height: 142px;
+}
+.site-footer {
+    background: orange;
 }
 
 
@@ -122,14 +163,14 @@ ul {
 }
 
 .OrlandoCityLogo{
-    height: 30%;
-    width: 30%;
+    height: 45%;
+    width: 45%;
     padding: 2%;
 }
 
 .RowdiesLogo{
-    height: 30%;
-    width: 30%;
+    height: 45%;
+    width: 45%;
     padding: 2%;
 }
 
@@ -161,6 +202,14 @@ ul {
 .Fishing2{
     height: 40%;
     width: 40%;
+    padding: 1%;
+}
+
+.kenanIcon {
+    height: 30%;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 20%;
     padding: 1%;
 }
 
