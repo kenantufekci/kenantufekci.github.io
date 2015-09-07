@@ -1,32 +1,56 @@
+/* Elements */
+
 body {
-    padding-top: 60px;
+    padding-top: 5%;
     background-image: url(http://madelinerouge.com/wp-content/uploads/2012/03/grey-website-background.jpg);
     background-repeat: repeat-y;
     background-attachment: fixed;
     background-position: top center;
     background-color: black;
     background-size: 100%;
-    padding: 70px;
+    padding: 5%;
 }
 
 p {
     color: whitesmoke;
     font-family: consolas;
-    font-size: 18px;
+    font-size: 120%;
 }
 
 h1 {
     color: whitesmoke;
     font-family: Consolas;
+    font-size: 300%;
     text-shadow: 2px 2px 4px #dadeff;
+}
+
+h2 {
+
 }
 
 h3 {
     color: #7f858e;
-    font-size: 30px;
+    font-size: 180%;
     font-family: fantasy;
     text-shadow: 2px 2px 4px #dadeff;
 }
+
+ul {
+    color: whitesmoke;
+    font-family: consolas;
+    font-size: 120%;
+}
+
+.list-group-item-heading {
+    color: whitesmoke;
+    font-family: Consolas;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+
+/* images */
 
 .img-thumbnail{
     height: 84%;
@@ -41,7 +65,7 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 25px;
+    padding: 2%;
 }
 
 .JabilLogo{
@@ -69,27 +93,27 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 25px;
+    padding: 2%;
 }
 
 .UFlogo {
     height: 60%;
     width: 60%;
-    padding: 25px;
+    padding: 2%;
 }
 
 .IPPDlogo{
     height: 30%;
     width: 30%;
-    padding: 25px;
+    padding: 2%;
 }
 
 .UFBlock{
     align: "left";
     display: block;
-    margin-left: 150px;
-    margin-right: 25px;
-    padding: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
 }
 
 .icon {
@@ -97,24 +121,16 @@ h3 {
     width: 20%;
 }
 
-.list-group-item-heading {
-    color: whitesmoke;
-    font-family: Consolas;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-}
-
 .OrlandoCityLogo{
     height: 30%;
     width: 30%;
-    padding: 25px;
+    padding: 2%;
 }
 
 .RowdiesLogo{
     height: 30%;
     width: 30%;
-    padding: 25px;
+    padding: 2%;
 }
 
 .RowdiesPic{
@@ -124,28 +140,28 @@ h3 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 25px;
+    padding: 2%;
 }
 
 .SoccerBlock{
     align: "left";
     display: block;
-    margin-left: 222px;
-    margin-right: 20px;
-    padding: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 2%;
 }
 
 .Fishing1{
     height: 40%;
     width: 40%;
-    padding: 5px;
+    padding: 1%;
     transform: rotate(180deg);
 }
 
 .Fishing2{
     height: 40%;
     width: 40%;
-    padding: 5px;
+    padding: 1%;
 }
 
 
