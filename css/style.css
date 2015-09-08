@@ -1,4 +1,8 @@
 /* Elements */
+html{
+ height: 100%;
+ width: 100%;
+}
 
 body {
     padding-top: 5%;
@@ -88,6 +92,12 @@ h3 {
 }
 .site-footer {
     background: orange;
+}
+
+.buttonsResume {
+    height: 100%;
+    width: 100%;
+    padding: 2%;
 }
 
 
