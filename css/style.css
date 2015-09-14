@@ -24,8 +24,8 @@ p {
 
 h1 {
     color: whitesmoke;
-    font-family: Consolas;
-    font-size: 300%;
+    font-family: myFirstFont;
+    font-size: 500%;
     text-shadow: 2px 2px 4px #dadeff;
 }
 
@@ -106,6 +106,14 @@ h3 {
     padding: 2%;
 }
 
+.navBarTitle {
+    font-family: myFirstFont;
+}
+
+.navBarIcon {
+    font-family: myIconFont;
+}
+
 
 /* images */
 
@@ -162,7 +170,7 @@ h3 {
 .IPPDlogo{
     height: 30%;
     width: 30%;
-    padding: 2%;
+    padding: 1%;
 }
 
 .UFBlock{
@@ -229,5 +237,30 @@ h3 {
     padding: 1%;
 }
 
+.cerebroStimPic {
+    height: 30%;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 20%;
+    padding: 1%;
+}
 
+.bostPic {
+    height: 50%;
+    width: 50%;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1%;
+}
+
+/* Fonts */
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/hypefonts_neoteric/NEOTERICc%20-%20Regular%20DEMO%20VERSION.ttf);
+}
+
+@font-face {
+    font-family: myIconFont;
+    src: url(../fonts/gluk_foglihtenfr02/FoglihtenFr02.otf);
+}
 
