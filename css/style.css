@@ -40,7 +40,6 @@ h3 {
     font-family: Consolas;
     font-size: 150%;
     font-family: fantasy;
-    text-shadow: 2px 2px 4px #dadeff;
 }
 
 .list-group-item-heading {
@@ -118,8 +117,8 @@ h3 {
 /* images */
 
 .img-thumbnail{
-    height: 84%;
-    width: 84%;
+    height: 43%;
+    width: 43%;
     align: "center";
 }
 
@@ -182,8 +181,8 @@ h3 {
 }
 
 .icon {
-    height: 20%;
-    width: 20%;
+    height: 10%;
+    width: 10%;
 }
 
 .OrlandoCityLogo{
@@ -238,11 +237,11 @@ h3 {
 }
 
 .cerebroStimPic {
-    height: 30%;
-    width: 30%;
-    margin-left: 10%;
-    margin-right: 20%;
+    height: 20%;
+    width: 20%;
     padding: 1%;
+    margin-left: 40%;
+    margin-right: 50%;
 }
 
 .bostPic {
@@ -250,6 +249,20 @@ h3 {
     width: 50%;
     margin-left: 20%;
     margin-right: 20%;
+    padding: 1%;
+}
+
+.ippdBanner {
+    height: 80%;
+    width: 80%;
+    padding: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.dbsVideo {
+    margin-left: 35%;
+    margin-right: 50%;
     padding: 1%;
 }
 
